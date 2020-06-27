@@ -131,7 +131,7 @@ export default class BaseForm extends Component<any, any> {
     };
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.mounted = true;
     this.setState(
       () => ({}),
